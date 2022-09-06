@@ -1,0 +1,51 @@
+.services--page{
+    background:#353353 ;
+    
+    min-height: 100vh;
+    margin-left: 370px;
+    padding-left: 40px;
+    color: white;
+}
+
+.services{
+    font-weight: 900;
+    font-size: 40px;
+    color: #ffc107;
+}
+.services--item{
+    display:flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+.serv{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow:5px 5px grey;
+}
+.serv img{
+    margin:20px 0px ;
+    height:85px;
+     width:85px;
+}
+.serv h2{
+    margin-bottom:20px
+}
+.serv p{
+    width: 70%;
+   text-align: justify;
+}
+.ui--design{
+    background-color: rgb(108, 108, 229);
+    
+
+}
+.web--dev{
+    background-color: #ffc107;
+}
+.photography{
+    background-color: #dc3545;
+}

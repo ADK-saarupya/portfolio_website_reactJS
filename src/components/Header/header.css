@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+.desktop--header{
+    width: 290px;
+   background-color: #353353;
+   height: 100vh;
+   min-height: 100vh;
+   padding: 50px 40px 40px;
+   position: fixed;
+   color: white;
+   overflow-y: auto;
+   overflow-x: hidden;
+   border-right: 1px solid grey;
+   
+  
+ 
+   
+}
+.logo{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Rubik Microbe', cursive;
+    color: #ffc107;
+
+}
+.logo span{
+    color:#dc3545;
+    font-weight: 900;
+}
+
+.vertical-menu{
+    list-style: none;
+    font-size: 20px;
+    font-weight:500;
+    margin-bottom: 130px;
+    margin-top: 130px;
+    
+    
+}
+.vertical-menu li{
+    padding: 8px 2px;
+    font-weight: bolder;
+    cursor:pointer;
+    display: block;
+    transition: 0.7s;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.vertical-menu>li:hover {
+   color: #ffc107;
+}
+.vertical-menu img{
+    padding-right: 13px;
+}
+.bottom{
+    color: #9C9AB3;
+    font-size: 14px;
+}
+
