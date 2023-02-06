@@ -1,49 +1,51 @@
-.contact--page{
-    background:#353353 ;
-   
-    min-height: 100vh;
-    margin-left: 370px;
-    padding-left: 40px;
-    color: white;
+.contact--page {
+  background: #353353;
+
+  min-height: 100vh;
+  margin-left: 370px;
+  padding-left: 40px;
+  color: white;
 }
 
-.contact{
-    font-weight: 900;
-    font-size: 40px;
-    color: #ffc107;
+.contact {
+  font-weight: 900;
+  font-size: 40px;
+  color: #ffc107;
 }
-.talk--text{
-    padding-top: 25px;
+.talk--text {
+  padding-top: 25px;
 }
-.info input{
-    width: 350px;
-    height: 50px;
-    margin:30px;
-    border-radius: 20px;
-    border: none;
+input,
+textarea {
+  font-size: 18px;
+  padding-left: 10px;
 }
-.sub input{
-    width: 780px;
-    margin: 30px;
-    height: 50px;
-    border-radius: 20px;
-    border:none;
+.info input {
+  width: 350px;
+  height: 50px;
+  margin: 30px;
+  border-radius: 20px;
+  border: none;
 }
-.msg{
-    width: 780px;
-    margin: 17px;
-    height: 150px;
-    border-radius: 20px;
-    border:none;
-    
-    
+.sub input {
+  width: 780px;
+  margin: 30px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
 }
-.send--msg{
-    width: 200px;
-    margin:30px;
-   
+.msg {
+  width: 780px;
+  margin: 17px;
+  height: 150px;
+  border-radius: 20px;
+  border: none;
 }
-::placeholder{
-    padding-left: 10px;
-    font-size: 15px;
+.send--msg {
+  width: 200px;
+  margin: 30px;
+}
+::placeholder {
+  padding-left: 10px;
+  font-size: 15px;
 }
